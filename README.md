@@ -33,11 +33,12 @@ COMSOL Multiphysics 6.0+ (with MPH interface/API enabled)
 RAM: 16 GB recommended.
 CPU: 4 cores or more.
 Operating System: Windows 10/11 (required for COMSOL-Python MPH interface).
-Required Python packages:numpy, os, sys, shutil, time,mph (for COMSOL-Python bridging),phreeqc (for Phreeqc-Python bridging)
+Required Python packages:numpy, mph (for COMSOL-Python bridging),phreeqc (Python interface for IPhreeqc)
 
 Python Dependencies
 bash
-pip install numpy mph phreeqpy
+pip install numpy mph phreeqpc
+
 🏁 Quick Start: Runnable Example (Single-Step)
 This repository includes a pre-configured test case to verify your environment. The scripts use relative paths and will automatically redirect COMSOL's export path to the local /Results folder.
 Start COMSOL Server: Open the "COMSOL Multiphysics Server" application on your computer.
@@ -90,6 +91,8 @@ If real field or experimental data cannot be shared due to size or privacy restr
 
 📌 Security & File Format Note
 For security reasons, this repository does not use or accept single compressed files (e.g., .zip, .rar, .7z).All code, models, scripts, and examples are provided as individual, directly accessible files.
+
+License: This project is licensed under the MIT License.
 
 📧 Contact
 Proposed by Yaqiang Wei, Jiao Zhang in 2026Contact: yakiwei@yahoo.com
