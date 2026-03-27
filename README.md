@@ -1,6 +1,6 @@
 A fully Python-based, modular and reproducible framework for reactive transport modeling in Soil and Groundwater
-CPqPy_V2: Coupled COMSOL-PHREEQC in PythonCPqPy_V2 is a modular, reproducible Python-based framework designed for fully coupled reactive transport modeling (RTM) in soil and groundwater systems.
-By integrating the multiphysics capabilities of COMSOL with the geochemical precision of PHREEQC, this framework allows for automated, bidirectional data exchange at each time-step. Unlike its predecessor, CPqPy_V2 is entirely independent of the MATLAB environment, offering a more accessible and streamlined workflow for the scientific community.
+ComPhy: Coupled COMSOL-PHREEQC in PythonComPhy is a modular, reproducible Python-based framework designed for fully coupled reactive transport modeling (RTM) in soil and groundwater systems.
+By integrating the multiphysics capabilities of COMSOL with the geochemical precision of PHREEQC, this framework allows for automated, bidirectional data exchange at each time-step. Unlike its predecessor, ComPhy is entirely independent of the MATLAB environment, offering a more accessible and streamlined workflow for the scientific community.
 
 🚀 Key FeaturesPython-Native: Complete independence from MATLAB, improving portability and reducing licensing hurdles.
 Modular Architecture: Functional components are decoupled, allowing users to easily swap or extend geochemical modules or physical solvers.
@@ -15,7 +15,7 @@ Interface Layer: Python-based automation that synchronizes time-stepping and dat
 
 📂 Project Structure (Required for Reproducibility)To ensure the scripts can locate files using relative paths, please organize your local directory as follows:
 plaintext
-CPqPy_V2_Project/
+ComPhy_Project/
 ├── main_1.py              # Initialization runner (Calls comsol_1 & phreeqc_1)
 ├── comsol_1.py            # Physics initialization script
 ├── phreeqc_1.py           # Chemical equilibrium initialization script
@@ -27,7 +27,7 @@ CPqPy_V2_Project/
 └── README.md
 
 📋 Prerequisites
-To run CPqPy_V2, you will need:
+To run ComPhy, you will need:
 Python 3.8+
 COMSOL Multiphysics 6.0+ (with MPH interface/API enabled)
 RAM: 16 GB recommended.
