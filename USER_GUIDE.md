@@ -1,8 +1,8 @@
-\# User Guide: ComPhy Framework
+\# User Guide: CoPhy Framework
 
 
 
-This guide describes the inputs, outputs, and configuration options for the ComPhy reactive transport modeling framework.
+This guide describes the inputs, outputs, and configuration options for the CoPhy reactive transport modeling framework.
 
 
 
